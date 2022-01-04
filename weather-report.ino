@@ -20,14 +20,14 @@
 #include "Adafruit_ILI9341.h"
   
 // WiFi network details:
-const char* ssid = "BALDWIN";
-const char* password = "4696301617";
+const char* ssid = "";
+const char* password = "";
 
 // API details:
 const String HOST_NAME = "api.openweathermap.org";
-const String API_KEY = "ca5824a6fe1ed63c19c2f45c04a1d078";
+const String API_KEY = "";
 const String UNITS = "imperial";
-const String ZIP_CODE = "75495";
+const String ZIP_CODE = "";
 
 // Denotes the LED pin used for status blinking:
 const int LED_PIN = LED_BUILTIN;
